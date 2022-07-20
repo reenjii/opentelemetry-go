@@ -121,6 +121,8 @@ var (
 	CloudProviderAzure = CloudProviderKey.String("azure")
 	// Google Cloud Platform
 	CloudProviderGCP = CloudProviderKey.String("gcp")
+	// OVHcloud
+	CloudProviderOVHcloud = CloudProviderKey.String("ovhcloud")
 	// Tencent Cloud
 	CloudProviderTencentCloud = CloudProviderKey.String("tencent_cloud")
 )
@@ -162,6 +164,8 @@ var (
 	CloudPlatformGCPCloudFunctions = CloudPlatformKey.String("gcp_cloud_functions")
 	// Google Cloud App Engine (GAE)
 	CloudPlatformGCPAppEngine = CloudPlatformKey.String("gcp_app_engine")
+	// OVHcloud Public Cloud
+	CloudPlatformOVHcloudPCI = CloudPlatformKey.String("ovhcloud_public_cloud")
 	// Tencent Cloud Cloud Virtual Machine (CVM)
 	CloudPlatformTencentCloudCvm = CloudPlatformKey.String("tencent_cloud_cvm")
 	// Tencent Cloud Elastic Kubernetes Service (EKS)
